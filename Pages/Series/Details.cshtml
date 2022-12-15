@@ -1,0 +1,49 @@
+@page
+@model Projecto_JaVi.Pages.Series.DetailsModel
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Serie</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Genero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Genero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Finalizada)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Finalizada)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Comentario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Comentario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Nota)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Nota)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Serie?.Id" class="back-link">Editar</a> |
+    <a asp-page="./Index" class="back-link">Voltar para a lista</a>
+</div>

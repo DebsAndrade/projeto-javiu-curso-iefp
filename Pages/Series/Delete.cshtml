@@ -1,0 +1,52 @@
+@page
+@model Projecto_JaVi.Pages.Series.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Tem certeza que deseja apagar a série?</h3>
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Genero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Genero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Finalizada)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Finalizada)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Comentario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Comentario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Serie.Nota)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Serie.Nota)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Serie.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index" class="back-link">Voltar para a lisa</a>
+    </form>
+</div>

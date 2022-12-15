@@ -1,0 +1,37 @@
+@page
+@model Projecto_JaVi.Pages.Contactos.DetailsModel
+
+@{
+    ViewData["Title"] = "Datalhes";
+}
+
+<h1>Datalhes</h1>
+
+<div>
+    <h4>Comentários</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contacto.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contacto.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contacto.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contacto.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contacto.Mensagem)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contacto.Mensagem)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Contacto?.Id" class="back-link">Editar</a> |
+    <a asp-page="./Index" class="back-link">Voltar para a lista</a>
+</div>

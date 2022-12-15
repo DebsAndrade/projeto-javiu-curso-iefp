@@ -1,0 +1,49 @@
+@page
+@model Projecto_JaVi.Pages.Contactos.IndexModel
+
+@{
+    ViewData["Title"] = "Contactos";
+}
+
+<h1>Deixo um comentário</h1>
+<p>Deixe aqui algum comentário ou sugestão para melhorarmos nosso WebApp! Obrigada.</p>
+
+<p>
+    <a asp-page="Create" class="back-link">Crie novo comentário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Contacto[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contacto[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contacto[0].Mensagem)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Contacto) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mensagem)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id" class="back-link">Edite</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id" class="back-link">Detalhes</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="back-link">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

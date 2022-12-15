@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Projecto_JaVi
+build_property.RootNamespace = Projecto_JaVi
+build_property.ProjectDir = /Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Contactos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Contactos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Contactos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdG9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Contactos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdG9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Contactos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Filmes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Filmes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Filmes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Filmes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Filmes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Series/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VyaWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Series/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VyaWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Series/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VyaWVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Series/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VyaWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Series/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VyaWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Projects/Projecto-JaVi/Projecto-JaVi/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f3b70zf6og
